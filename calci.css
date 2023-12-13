@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(32, 31, 31);
+}
+div {
+  display: flex;
+  justify-content: center;
+  padding: 0% 20%;
+}
+
+#container {
+  width: 25%;
+  background-color: black;
+  color: white;
+  border-radius: 3%;
+  box-shadow: 0px 0px 5px;
+}
+table tr th {
+  border-radius: 5%;
+  box-shadow: 1px 1px 2px;
+  cursor: pointer;
+}
+
+#r1 {
+  background-color: rgb(25, 31, 12);
+}
+#c4 {
+  background-color: lightslategray;
+}
+#c1 {
+  background-color: rgb(74, 116, 13);
+}
+#c2 {
+  background-color: red;
+}
+
+input {
+  background-color: black;
+  color: white;
+  font-size: larger;
+  cursor: pointer;
+}
+#inputbox {
+  padding: 20px 40px;
+}

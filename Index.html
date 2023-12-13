@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calci.css" />
+</head>
+
+<body>
+    <div>
+        <table cellspacing="15" cellpadding="25" id="container">
+            <tr id="r1">
+                <th colspan="4"><input type="text" id="inputbox"> </th>
+
+            </tr>
+
+
+            </tr>
+            <th id="c1" colspan="2"><input type="button" value="AC" onclick="inputbox.value =' ' "> </th>
+            <th id="c2"><input type="button" value="DEL"
+                    onclick="inputbox.value = inputbox.value.toString().slice(0,-1) "> </th>
+            <th id="c4"><input type="button" value="/" onclick="inputbox.value +='/' "> </th>
+            </tr>
+            <tr>
+                <th><input type="button" value="1" onclick="inputbox.value +='1' "> </th>
+                <th> <input type="button" value="2" onclick="inputbox.value +='2' "> </th>
+                <th><input type="button" value="3" onclick="inputbox.value +='3' "> </th>
+                <th id="c4"><input type="button" value="*" onclick="inputbox.value +='*' "> </th>
+            </tr>
+            <tr>
+                <th><input type="button" value="4" onclick="inputbox.value +='4' "> </th>
+                <th><input type="button" value="5" onclick="inputbox.value +='5' "> </th>
+                <th><input type="button" value="6" onclick="inputbox.value +='6' "> </th>
+                <th id="c4"><input type="button" value="+" onclick="inputbox.value +='+' "> </th>
+            </tr>
+            <tr>
+                <th><input type="button" value="7" onclick="inputbox.value +='7' "> </th>
+                <th><input type="button" value="8" onclick="inputbox.value +='8' "> </th>
+                <th><input type="button" value="9" onclick="inputbox.value += '9' "> </th>
+                <th id="c4"><input type="button" value="-" onclick="inputbox.value +='-' "> </th>
+            </tr>
+            <tr>
+                <th><input type="button" value="." onclick="inputbox.value +='.' "> </th>
+                <th><input type="button" value="0" onclick="inputbox.value +='0' "> </th>
+                <th id="c1" colspan="2"><input type="button" value="=" onclick="inputbox.value  = eval(inputbox.value)">
+                </th>
+            </tr>
+        </table>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
